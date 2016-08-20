@@ -1,0 +1,117 @@
+body {
+  margin-top: 25px !important;
+}
+
+body, button {
+  background-color: #0C0B0E !important;
+}
+
+body, h3 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+button, hr {
+  border: 0px !important;
+}
+
+button, input { 
+  outline: none;
+}
+
+h3 {
+  color: #AAA !important;
+  font-size: 18px;
+}
+
+h4 {
+  color: #C0392B !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.child, .mode-feedback, .outer-circle, .timer-feedback {
+  position: absolute;
+}
+
+.child {
+  height: 100%;
+}
+
+.child, .timer-settings-table {
+  width: 100%;
+}
+
+.footer {
+  color: #888;
+  font-size: 8px;
+}
+
+.footer, .mode-feedback, .timer-feedback, .timer-settings-table {
+  text-align: center;
+}
+
+.mode-feedback, .timer-feedback {
+  color: #FFF;
+}
+
+.mode-feedback, .outer-circle, .timer-feedback, .timer-settings-container, .timer-settings-table {
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+}
+
+.mode-feedback {
+  font-size: 50px;
+  margin-top: 65px;
+  width: 200px;
+}
+
+.outer-circle {
+  border: 4px solid #00FF00;
+  height: 275px;
+  margin-top: -13px;
+  width: 275px;
+}
+
+.outer-circle, .parent {
+  border-radius: 50%;
+}
+
+.parent {
+  height: 250px;
+  margin: 0 auto;
+  margin-top: -38px;
+  overflow: hidden;
+  position: relative;
+  width: 250px;
+  z-index: -1;
+}
+
+.timer-container {
+  border: 1px solid none;
+}
+
+.timer-container, .timer-visual {
+  height: 200px;
+}
+
+.timer-feedback {
+  font-size: 26px;
+  margin-top: 130px;
+  z-index: 2;
+}
+
+.timer-settings-container {
+  width: 80%;
+}
+
+.timer-settings-table {
+  vertical-align: top;
+}
+
+.timer-visual {
+  cursor: pointer;
+  margin-top: -15px;
+}
